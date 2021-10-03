@@ -1,4 +1,4 @@
-package com.example.moviefacts.repository;
+package com.example.moviefacts.sqlConnection;
 
 import java.io.FileInputStream;
 import java.io.IOException;

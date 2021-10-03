@@ -1,8 +1,7 @@
 package com.example.moviefacts.controllers;
 import com.example.moviefacts.model.Movie;
-import com.example.moviefacts.repository.DBManager;
+import com.example.moviefacts.sqlConnection.DBManager;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.GetMapping;
 import java.sql.*;
 import java.util.ArrayList;
